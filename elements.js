@@ -1,0 +1,23 @@
+const ELEMENTS = {
+  INPUT: document.querySelector('.aktobe__input'),
+  SEARCH: document.querySelector('.search__img'),
+  TEMPERATURE: document.querySelector('.now__temperature'),
+  IMG: document.querySelector('.now__icon-img'),
+  NAME_CITY: document.querySelector('.now__city'),
+  FORM: document.querySelector('.aktobe'),
+  IMG_HERTS: document.querySelector('.now__city-img'),
+  LIST_lOCATION: document.querySelector('.list'),
+  DETAILS_CITY: document.querySelector('.details__city'),
+  DETAILS_TEMPERATURE: document.getElementById('details__temperature'),
+  DETAILS_LIKE: document.getElementById('details__like'),
+  DETAILS_WEATHER: document.getElementById('details__weather'),
+  DETAILS_SUNRISE: document.getElementById('details__sunrise'),
+  DETAILS_SUNSET: document.getElementById('details__sunset'),
+  FORECAST_CITY: document.querySelector('.forecast__city'),
+  FORECAST_TEMPERATURE: document.querySelectorAll('.forecast__temper'),
+  FORECAST_FEELS_LIKE: document.querySelectorAll('.feels__like'),
+  FORECAST_TIMEZONE: document.querySelectorAll('.forecast__itemTime'),
+  FORECAST_DATE: document.querySelectorAll('.forecast__date'),
+  FORECAST_ICON: document.querySelectorAll('.forecast__img'),
+};
+export { ELEMENTS };
